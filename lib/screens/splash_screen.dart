@@ -1,6 +1,6 @@
 // ignore_for_file: prefer_const_constructors, prefer_const_literals_to_create_immutables
 
-import 'package:dropdown/main.dart';
+import 'package:dropdown/screens/dropdown_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
@@ -17,16 +17,16 @@ class _SplashScreenState extends State<SplashScreen>
   void initState() {
     super.initState();
     SystemChrome.setEnabledSystemUIMode(SystemUiMode.immersive);
-    Future.delayed(Duration(seconds: 2), () {
+    Future.delayed(Duration(seconds: 1), () {
       Navigator.of(context).pushReplacement(MaterialPageRoute(
-        builder: (_) => MyHomePage(title: "Home"),
+        // builder: (_) => MyHomePage(title: "Home"),
+        builder: (_) => DropdownScreen(),
       ));
     });
   }
 
   @override
   void dispose() {
-    // TODO: implement dispose
     SystemChrome.setEnabledSystemUIMode(SystemUiMode.manual,
         overlays: SystemUiOverlay.values);
     super.dispose();

@@ -1,0 +1,71 @@
+{
+    "buildingType": {
+        "A": "RESIDENTIAL",
+        "B": "EDUCATIONAL",
+        "C": "INSTITUTION FOR CARE",
+        "D": "HEALTH CARE FACILITIES",
+        "E": "BUSINESS",
+        "F": "MERCANTILE",
+        "G": "INDUSTRIAL",
+        "H": "STORAGE",
+        "I": "ASSEMBLY",
+        "J": "HAZARDOUS",
+        "K": "GARAGES",
+        "O": "Other"
+    },
+    "residentialTypes": {
+        "A1": "Single Family Dwelling and Two Families Dwelling",
+        "A3": "Flats and Apartments",
+        "A4": "Mess, Boarding House and Hostels",
+        "A5": "Hotels and Lodging Houses"
+    },
+    "educationalTypes": {
+        "B1": "Low Rise",
+        "B2": "High Rise"
+    },
+    "careTypes": {
+        "C1": "Institution for Care of Children",
+        "C2": "Custodial Institution for the Physically Capable adults",
+        "C3": "Custodial Institution for the Physically Incapable",
+        "C4": "Penal and mental institutions for children",
+        "C5": "Penal and mental institutions for adults"
+    },
+    "healthCareTypes": {
+        "D1": "Normal Medical Facilities",
+        "D2": "Emergency Medical Facilities"
+    },
+    "businessTypes": {
+        "E1": "Office buildings up to 2 storey high and 500 m2 single effective undivided space in a floor",
+        "E2": "Office buildings more than 2 storey high or more than 500 m2 single effective undivided space in a floor.",
+        "E3": "Laboratories with precession instruments",
+        "E4": "Control areas of office buildings dealing with flammable liquids.",
+        "E5": "Solvent storage in a control area of an office",
+        "E6": "Telecommunication, Internet gateway equipment or computer installation in an unattended server room.",
+        "E7": "Electrical low tension distribution panel room in a sub-station.",
+        "E8": "Space under one false ceiling more than 500 m2",
+        "E9": "Essential Services"
+    },
+    "mercantileTypes": {
+        "F1": "Whole sale establishments, transport booking establishments",
+        "F2": "Shopping arcade with central corridors open to sky",
+        "F3": "Mercantile building under covered roof with single effective undivided space more than 500 m2 on each floor",
+        "F4": "Underground mercantile structure",
+        "F5": "Petrol pump and CNG station, automobile garages",
+        "F6": "Aircraft hangars"
+    },
+    "industryTypes": {
+        "G1": "Low Hazard Industries",
+        "G2": "Moderate Hazard Industries"
+    },
+    "storageTypes": {
+        "H1": "Low Fire Risk Storage",
+        "H2": "Moderate Fire Risk Storage"
+    },
+    "assemblyTypes": {
+        "I1": "Large Assembly with Fixed Seats",
+        "I2": "Small Assembly with Fixed Seats",
+        "I3": "Large Assembly without Fixed Seats",
+        "I4": "Small Assembly without Fixed Seats",
+        "I5": "Sports Facilities"
+    }
+}

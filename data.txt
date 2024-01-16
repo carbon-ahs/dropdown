@@ -1,0 +1,186 @@
+<string-array name="building_type">
+    <item>A: RESIDENTIAL</item>
+    <item>B: EDUCATIONAL</item>
+    <item>C: INSTITUTION FOR CARE</item>
+    <item>D: HEALTH CARE FACILITIES</item>
+    <item>E: BUSINESS</item>
+    <item>F: MERCANTILE</item>
+    <item>G: INDUSTRIAL</item>
+    <item>H: STORAGE</item>
+    <item>I: ASSEMBLY</item>
+    <item>J: HAZARDOUS</item>
+    <item>K: GARAGES</item>
+    <item>Other</item>
+</string-array>
+
+<string-array name="residential_types">
+    <item>A1 and A2: Single Family Dwelling and Two Families Dwelling</item>
+    <item>A3: Flats and Apartments</item>
+    <item>A4: Mess, Boarding House and Hostels</item>
+    <item>A5: Hotels and Lodging Houses</item>
+</string-array>
+
+<string-array name="educational_types">
+    <item>B1: Low Rise</item>
+    <item>B2: High Rise</item>
+</string-array>
+
+<string-array name="care_types">
+    <item>C1: Institution for Care of Children</item>
+    <item>C2: Custodial Institution for the Physically Capable adults</item>
+    <item>C3: Custodial Institution for the Physically Incapable</item>
+    <item>C4: Penal and mental institutions for children</item>
+    <item>C5: Penal and mental institutions for adults</item>
+</string-array>
+
+<string-array name="health_care_types">
+    <item>D1: Normal Medical Facilities</item>
+    <item>D2: Emergency Medical Facilities</item>
+</string-array>
+
+<string-array name="business_types">
+    <item>1. Office buildings up to 2 storey high and 500 m2 single effective undivided space in a floor</item>
+    <item>2. Office buildings more than 2 storey high or more than 500 m2 single effective undivided space in a floor.</item>
+    <item>3. Laboratories with precession instruments</item>
+    <item>4. Control areas of office buildings dealing with flammable liquids.</item>
+    <item>5. Solvent storage in a control area of an office</item>
+    <item>6. Telecommunication, Internet gateway equipment or computer installation in an unattended server room.</item>
+    <item>7. Electrical low tension distribution panel room in a sub-station.</item>
+    <item>8. Space under one false ceiling more than 500 m2</item>
+    <item>9. Essential Services</item>
+</string-array>
+
+<string-array name="mercantile_types">
+    <item>1. Whole sale establishments, transport booking establishments</item>
+    <item>2. Shopping arcade with central corridors open to sky</item>
+    <item>3. Mercantile building under covered roof with single effective undivided space more than 500 m2 on each floor</item>
+    <item>4. Underground mercantile structure</item>
+    <item>5. Petrol pump and CNG station, automobile garages</item>
+    <item>6. Aircraft hangars</item>
+</string-array>
+
+<string-array name="industry_types">
+    <item>G1: Low Hazard Industries</item>
+    <item>G2: Moderate Hazard Industries</item>
+</string-array>
+
+<string-array name="storage_types">
+    <item>H1: Low Fire Risk Storage</item>
+    <item>H2: Moderate Fire Risk Storage</item>
+</string-array>
+
+<string-array name="assembly_types">
+    <item>I1: Large Assembly with Fixed Seats</item>
+    <item>I2: Small Assembly with Fixed Seats</item>
+    <item>I3: Large Assembly without Fixed Seats</item>
+    <item>I4: Small Assembly without Fixed Seats</item>
+    <item>I5: Sports Facilities</item>
+</string-array>
+
+void main() {
+  // Building types dictionary
+  Map<String, String> buildingType = {
+    'A': 'RESIDENTIAL',
+    'B': 'EDUCATIONAL',
+    'C': 'INSTITUTION FOR CARE',
+    'D': 'HEALTH CARE FACILITIES',
+    'E': 'BUSINESS',
+    'F': 'MERCANTILE',
+    'G': 'INDUSTRIAL',
+    'H': 'STORAGE',
+    'I': 'ASSEMBLY',
+    'J': 'HAZARDOUS',
+    'K': 'GARAGES',
+    'Other': 'Other',
+  };
+
+  // Residential types dictionary
+  Map<String, String> residentialTypes = {
+    'A1 and A2': 'Single Family Dwelling and Two Families Dwelling',
+    'A3': 'Flats and Apartments',
+    'A4': 'Mess, Boarding House and Hostels',
+    'A5': 'Hotels and Lodging Houses',
+  };
+
+  // Educational types dictionary
+  Map<String, String> educationalTypes = {
+    'B1': 'Low Rise',
+    'B2': 'High Rise',
+  };
+
+  // Institution for Care types dictionary
+  Map<String, String> careTypes = {
+    'C1': 'Institution for Care of Children',
+    'C2': 'Custodial Institution for the Physically Capable adults',
+    'C3': 'Custodial Institution for the Physically Incapable',
+    'C4': 'Penal and mental institutions for children',
+    'C5': 'Penal and mental institutions for adults',
+  };
+
+  // Health Care Facilities types dictionary
+  Map<String, String> healthCareTypes = {
+    'D1': 'Normal Medical Facilities',
+    'D2': 'Emergency Medical Facilities',
+  };
+
+  // Business types dictionary
+  Map<String, String> businessTypes = {
+    '1': 'Office buildings up to 2 storey high and 500 m2 single effective undivided space in a floor',
+    '2': 'Office buildings more than 2 storey high or more than 500 m2 single effective undivided space in a floor.',
+    '3': 'Laboratories with precession instruments',
+    '4': 'Control areas of office buildings dealing with flammable liquids.',
+    '5': 'Solvent storage in a control area of an office',
+    '6': 'Telecommunication, Internet gateway equipment or computer installation in an unattended server room.',
+    '7': 'Electrical low tension distribution panel room in a sub-station.',
+    '8': 'Space under one false ceiling more than 500 m2',
+    '9': 'Essential Services',
+  };
+
+  // Mercantile types dictionary
+  Map<String, String> mercantileTypes = {
+    '1': 'Whole sale establishments, transport booking establishments',
+    '2': 'Shopping arcade with central corridors open to sky',
+    '3': 'Mercantile building under covered roof with single effective undivided space more than 500 m2 on each floor',
+    '4': 'Underground mercantile structure',
+    '5': 'Petrol pump and CNG station, automobile garages',
+    '6': 'Aircraft hangars',
+  };
+
+  // Industrial types dictionary
+  Map<String, String> industryTypes = {
+    'G1': 'Low Hazard Industries',
+    'G2': 'Moderate Hazard Industries',
+  };
+
+  // Storage types dictionary
+  Map<String, String> storageTypes = {
+    'H1': 'Low Fire Risk Storage',
+    'H2': 'Moderate Fire Risk Storage',
+  };
+
+  // Assembly types dictionary
+  Map<String, String> assemblyTypes = {
+    'I1': 'Large Assembly with Fixed Seats',
+    'I2': 'Small Assembly with Fixed Seats',
+    'I3': 'Large Assembly without Fixed Seats',
+    'I4': 'Small Assembly without Fixed Seats',
+    'I5': 'Sports Facilities',
+  };
+
+  // Print dictionaries for testing
+  print('Building Type: $buildingType');
+  print('Residential Types: $residentialTypes');
+  print('Educational Types: $educationalTypes');
+  print('Care Types: $careTypes');
+  print('Health Care Types: $healthCareTypes');
+  print('Business Types: $businessTypes');
+  print('Mercantile Types: $mercantileTypes');
+  print('Industry Types: $industryTypes');
+  print('Storage Types: $storageTypes');
+  print('Assembly Types: $assemblyTypes');
+}
+
+List storageTypes = [
+    {"title": "Low Fire Risk Storage", "value": "1"},
+    {"title": "Moderate Fire Risk Storage", "value": "2"},
+  ];
